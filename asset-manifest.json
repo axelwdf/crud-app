@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crud-app/static/css/main.dcc64c78.css",
+    "main.js": "/crud-app/static/js/main.a6561193.js",
+    "index.html": "/crud-app/index.html",
+    "main.dcc64c78.css.map": "/crud-app/static/css/main.dcc64c78.css.map",
+    "main.a6561193.js.map": "/crud-app/static/js/main.a6561193.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcc64c78.css",
+    "static/js/main.a6561193.js"
+  ]
+}
