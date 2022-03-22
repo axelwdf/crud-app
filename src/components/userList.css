@@ -1,0 +1,70 @@
+.UsersList{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 30rem;
+    height: 28rem;
+    margin: auto;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 2.5px 0px #000;
+    box-sizing:border-box;
+    overflow-y:scroll;
+}
+ul{
+    list-style: none;
+}
+.userList{
+    display: grid;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2.5px 0px #000;
+    width: 350px;
+    height: 170px;
+}
+.icons-sd{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: none;
+}
+
+.icon-sd{
+    color: #0165E1;
+    height: 2rem ;
+    width: 2rem ;
+    border: none;
+    border-radius: .5rem;
+    background-color:#FFFFFF;
+    transition: 1s ease;
+}
+.icon-sd:active{
+    box-shadow: 0px 0px 2.5px 0px #000;
+    transform: scale(-1);
+}
+
+@media all and (min-width: 560px){
+    .UsersList{
+        width: 30rem;
+    }
+}
+
+@media all and (min-width:675px){
+    .UsersList{
+        display: flex;
+        width: 25rem;
+        margin: auto;
+    }
+}
+
+@media all and (min-width: 700px){
+    .UsersList{
+        display: grid;
+        grid-template-rows: repeat(1, 2fr);
+        width: 30rem;
+        margin: auto;
+    }
+    .userList{
+        width: auto;
+        height: auto;
+        padding: 1rem;
+    }
+}
